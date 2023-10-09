@@ -1,0 +1,22 @@
+nav {
+  background-color: #18404e;
+  color: #e9b607;
+}
+
+.nav-link {
+  color: #e9b607;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/burger.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.img-logo-nav:hover {
+  transform: rotate(360deg);
+  transition-duration: 1.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
