@@ -17,7 +17,16 @@ const NavBar=({})=>{
                 <a className="nav-link nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-                <a className="nav-link nav-link" href="">Productos</a>
+                <div className="dropdown show">
+                    <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a className="dropdown-item" href="#">Sahumerios</a>
+                        <a className="dropdown-item" href="#">Sahumadores</a>
+                        <a className="dropdown-item" href="#">Otros</a>
+                        <a className="dropdown-item" href="#">Todos</a>
+                    </div>
+                </div>
             </li>
             <li className="nav-item">
                 <a className="nav-link nav-link" href="">Contactanos</a>

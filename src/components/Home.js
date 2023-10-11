@@ -1,7 +1,9 @@
+import Dharma from '../img/DHARMA.png'
+import ProductCard from './ProductCard.js'
 const Home=()=>{
     return(
-            <div>
-                <h1>Hola</h1>
+            <div className='div-home'>
+                <img src={Dharma}/>
             </div>
             )
     
