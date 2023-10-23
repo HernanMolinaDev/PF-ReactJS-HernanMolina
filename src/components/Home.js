@@ -1,5 +1,6 @@
 import React from 'react';
 import Dharma from '../img/DHARMA.png'
+import productsData from '../products.json'
 import ProductCard from './ProductCard'
         const Home=()=>{
             return(
@@ -8,10 +9,13 @@ import ProductCard from './ProductCard'
                         <img src={Dharma} alt="dharma-img"/>
                     </div>
                     <div>
-                        <ProductCard pic='../img/yagraycanela.jpg' title='algo' p='algo' price='algo'/>
-                        <ProductCard pic='../img/7elementos.jpg' title='algo2' p='algo2' price='algo'/>
-                        <ProductCard pic='../img/limpiezaenergetica.jpg' title='algo3' p='algo3' price='algo'/>
-                        <ProductCard pic='../img/salviaBlanca.jpg' title='algo4' p='algo4' price='algo'/>
+                        {productsData.products.map((product,index)=>(
+                        <ProductCard  
+                        key={index}
+                        pic={'imgs/' + product.img}
+                        title={product.name} 
+                        price={product.price} />
+                        ))}
                     </div>
                 </div>
             );
