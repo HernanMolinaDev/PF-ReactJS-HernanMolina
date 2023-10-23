@@ -7,10 +7,11 @@ function App() {
   return (
 
           <div>
-          <NavBar/>
-          <Home/>
+            <NavBar/>
+            <Home/>
           </div>
-  );
-}
-
+          
+          
+          );
+        }
 export default App;
