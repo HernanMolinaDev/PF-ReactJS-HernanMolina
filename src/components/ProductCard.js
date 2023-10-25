@@ -1,7 +1,7 @@
 const ProductCard=({pic,title,p,price})=>{
     return(
     <div>
-        <div className="card card-product">
+        <div className="card card-product col-xl-4">
             <img src={pic} className="card-img-top" alt="imagen"/>
         <div className="card-body">
         <h5 className="card-title">{title}</h5>

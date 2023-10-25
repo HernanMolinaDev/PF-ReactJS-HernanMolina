@@ -1,6 +1,18 @@
-.card-product{
-    img{
-        width: 30rem;
-    }
 
+div{
+    background-color: $color1;
+        .card-product{
+            img{
+                width: auto;
+            }
+            .btn{
+                border-radius: 30% ;
+                font-weight: bold;
+                background-color:$color2;
+                color:$color1;
+            }
+        text-align: center;
+        background-color: $color1;
+        color:$color2;
+    }
 }

@@ -32,8 +32,22 @@ nav {
   color: #e9b607;
 }
 
-.card-product img {
-  width: 30rem;
+div {
+  background-color: #18404e;
+}
+div .card-product {
+  text-align: center;
+  background-color: #18404e;
+  color: #e9b607;
+}
+div .card-product img {
+  width: auto;
+}
+div .card-product .btn {
+  border-radius: 30%;
+  font-weight: bold;
+  background-color: #e9b607;
+  color: #18404e;
 }
 
 /*# sourceMappingURL=style.css.map */

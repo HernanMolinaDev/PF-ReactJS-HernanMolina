@@ -9,80 +9,80 @@
 },
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"sahumerios Manzanilla x9",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"manzanilla.jpg"
 
 },
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"sahumerios rosa y olibano x9",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"rosasOlibano.jpg"
 
 },
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"sahumerios Laurel Eucalipto y Cedro x9",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"eucaliptoLaurelCedro.jpg"
 
 },
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"sahumerios Citronela Naranja x8",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"citronelaNaranja.jpg"
 
 },
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"sahumerios Palo santo y Jazmin x8",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"paloSantoJazmin.jpg"
 
 },
 
+{
+    "type":"bombitas",
+    "name":"bombitas Mirra e Incienso x8",
+    "price":"$1200",
+    "img":"mirraincienso.jpg"
+
+},
 {
     "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
+    "name":"bombitas Alcanfort x8",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"alcanfor.jpg"
 
 },
 {
-    "type":"sahumerios",
-    "name":"sahumerios Salvia Blanca x9",
-    "price":"$1200",
-    "img":"salviaBlanca.jpg"
-
-},
-{
-    "type":"bombitas de defumacion",
-    "name":"bombitas de defumacion palo santo x8",
+    "type":"bombitas",
+    "name":"bombitas 7 elementos puros x8",
     "price":"$1200",
     "img":"7elementos.jpg"
 
 },
 {
-    "type":"bombitas de defumacion",
-    "name":"bombitas de defumacion palo santo x8",
+    "type":"bombitas",
+    "name":"bombitas yagra y canela x8",
     "price":"$1200",
-    "img":"7elementos.jpg"
+    "img":"yagracanela.jpg"
 
 },
 {
-    "type":"bombitas de defumacion",
-    "name":"bombitas de defumacion palo santo x8",
+    "type":"bombitas",
+    "name":"bombitas de limpieza energetica x8",
     "price":"$1200",
-    "img":"7elementos.jpg"
+    "img":"limpiezaenergetica.jpg"
 
 },
 {
-    "type":"bombitas de defumacion",
-    "name":"bombitas de defumacion palo santo x8",
+    "type":"bombitas",
+    "name":"bombitas 7 Hierbas Copal",
     "price":"$1200",
-    "img":"7elementos.jpg"
+    "img":"7hierbas.jpg"
 
 }
 ]
