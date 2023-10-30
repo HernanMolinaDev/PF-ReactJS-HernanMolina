@@ -39,6 +39,10 @@ div .card-product {
   text-align: center;
   background-color: #18404e;
   color: #e9b607;
+  align-items: stretch;
+  margin: 15px;
+  padding: 3px;
+  border-color: #e9b607;
 }
 div .card-product img {
   width: auto;

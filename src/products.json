@@ -1,89 +1,125 @@
 
-{"products":[
+
+[
     {
-    "type":"sahumerios",
+    "id":1,
+    "category":"sahumerios",
     "name":"sahumerios Salvia Blanca x9",
     "price":"$1200",
-    "img":"salviaBlanca.jpg"
+    "img":"salviaBlanca.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":2,
+    "category":"sahumerios",
     "name":"sahumerios Manzanilla x9",
     "price":"$1200",
-    "img":"manzanilla.jpg"
+    "img":"manzanilla.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":3,
+    "category":"sahumerios",
     "name":"sahumerios rosa y olibano x9",
     "price":"$1200",
-    "img":"rosasOlibano.jpg"
+    "img":"rosasOlibano.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":4,
+    "category":"sahumerios",
     "name":"sahumerios Laurel Eucalipto y Cedro x9",
     "price":"$1200",
-    "img":"eucaliptoLaurelCedro.jpg"
+    "img":"eucaliptoLaurelCedro.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":5,
+    "category":"sahumerios",
     "name":"sahumerios Citronela Naranja x8",
     "price":"$1200",
-    "img":"citronelaNaranja.jpg"
+    "img":"citronelaNaranja.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":6,
+    "category":"sahumerios",
     "name":"sahumerios Palo santo y Jazmin x8",
     "price":"$1200",
-    "img":"paloSantoJazmin.jpg"
+    "img":"paloSantoJazmin.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 
 {
-    "type":"bombitas",
+    "id":7,
+    "category":"bombitas",
     "name":"bombitas Mirra e Incienso x8",
     "price":"$1200",
-    "img":"mirraincienso.jpg"
+    "img":"mirraincienso.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"sahumerios",
+    "id":8,
+    "category":"sahumerios",
     "name":"bombitas Alcanfort x8",
     "price":"$1200",
-    "img":"alcanfor.jpg"
+    "img":"alcanfor.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"bombitas",
+    "id":9,
+    "category":"bombitas",
     "name":"bombitas 7 elementos puros x8",
     "price":"$1200",
-    "img":"7elementos.jpg"
+    "img":"7elementos.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"bombitas",
+    "id":10,
+    "category":"bombitas",
     "name":"bombitas yagra y canela x8",
     "price":"$1200",
-    "img":"yagracanela.jpg"
+    "img":"yagracanela.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"bombitas",
+    "id":11,
+    "category":"bombitas",
     "name":"bombitas de limpieza energetica x8",
     "price":"$1200",
-    "img":"limpiezaenergetica.jpg"
+    "img":"limpiezaenergetica.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 },
 {
-    "type":"bombitas",
+    "id":12,
+    "category":"bombitas",
     "name":"bombitas 7 Hierbas Copal",
     "price":"$1200",
-    "img":"7hierbas.jpg"
+    "img":"7hierbas.jpg",
+    "desc":"detalle del producto",
+    "stock":5
 
 }
 ]
-}

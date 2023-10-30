@@ -14,5 +14,9 @@ div{
         text-align: center;
         background-color: $color1;
         color:$color2;
+        align-items: stretch;
+        margin: 15px;
+        padding: 3px;
+        border-color: $color2;
     }
 }

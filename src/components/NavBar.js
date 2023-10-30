@@ -1,14 +1,9 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 import CarWidget from './CarWidget'
 import logo from '../img/pngegg.png'
 const NavBar = () => {
-    const [selectedCategory, setSelectedCategory] = useState('Todos');
-  
-    const handleCategoryChange = (category) => {
-      setSelectedCategory(category);
-    };
   
     return (
       <nav className="navbar navbar-expand-lg">
@@ -33,44 +28,15 @@ const NavBar = () => {
               <Link className="nav-link nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <div className="dropdown">
-                <button
-                  className="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Productos
-                </button>
-                <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <button
-                    className="dropdown-item"
-                    onClick={() => handleCategoryChange("sahumerios")}
-                  >
-                    Sahumerios
-                  </button>
-                  <button
-                    className="dropdown-item"
-                    onClick={() => handleCategoryChange('bombitas')}
-                  >
-                    Bombitas
-                  </button>
-                  <button
-                    className="dropdown-item"
-                    onClick={() => handleCategoryChange('otros')}
-                  >
-                    Otros
-                  </button>
-                  <button
-                    className="dropdown-item"
-                    onClick={() => handleCategoryChange('Todos')}
-                  >
-                    Todos
-                  </button>
-                </div>
-              </div>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to={"/category/sahumerios"} >sahumerios</NavLink>
+                </li>
+                <li className="nav-item">
+                <NavLink className="nav-link" to={"/category/bombitas"}>bombitas</NavLink>
+                </li>
+            
+                </ul>
             </li>
             <li className="nav-item">
               <Link className="nav-link nav-link" to="">Contactanos</Link>
@@ -85,5 +51,5 @@ const NavBar = () => {
       </nav>
     );
   };
-  
+
   export default NavBar;
