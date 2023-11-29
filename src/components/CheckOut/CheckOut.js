@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useCartContext } from '../Context/CartContext';
 import { Link } from 'react-router-dom';
+import style from '../../css/style.css'
 import {
   getFirestore,
   collection,

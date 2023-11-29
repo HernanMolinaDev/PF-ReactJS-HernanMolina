@@ -1,6 +1,7 @@
 import React from "react";
 import { BsFillCartPlusFill } from "react-icons/bs";
 import {useCartContext} from '../Context/CartContext';
+import style from '../../css/style.css'
 
 const CartWidget = () => {
     const {totalProducts, cart} = useCartContext();

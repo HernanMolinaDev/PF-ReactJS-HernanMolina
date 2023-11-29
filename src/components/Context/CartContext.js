@@ -1,4 +1,6 @@
 import React, { useState, useContext } from 'react';
+import style from '../../css/style.css'
+
 
 const CartContext = React.createContext('');
 

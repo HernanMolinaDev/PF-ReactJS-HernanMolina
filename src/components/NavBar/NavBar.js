@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from "react-router-dom";
 import CartWidget from '../CartWidget/CartWidget'
 import logo from '../../img/pngegg.png'
+import style from '../../css/style.css'
 const NavBar = () => {
   
     return (

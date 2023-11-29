@@ -1,0 +1,55 @@
+body {
+    background-color: #18404e;
+  }
+  
+  .div-home {
+    background-color: #18404e;
+  }
+  
+  nav {
+    background-color: #18404e;
+    color: #e9b607;
+  }
+  
+  .nav-link {
+    color: #e9b607;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("../img/burger.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .img-logo-nav:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+  }
+  
+  .dropdown {
+    background-color: #18404e;
+    color: #e9b607;
+  }
+  
+  div {
+    background-color: #18404e;
+  }
+  div .card-product {
+    text-align: center;
+    background-color: #18404e;
+    color: #e9b607;
+    align-items: stretch;
+    margin: 15px;
+    padding: 3px;
+    border-color: #e9b607;
+  }
+  div .card-product img {
+    width: auto;
+  }
+  div .card-product .btn {
+    border-radius: 30%;
+    font-weight: bold;
+    background-color: #e9b607;
+    color: #18404e;
+  }
