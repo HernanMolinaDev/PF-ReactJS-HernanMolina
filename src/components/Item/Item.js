@@ -7,10 +7,10 @@ const Item = ({item}) => {
     <Link to={'/item/' + item.id} className='text-decoration-none'>
 
     <div className='container'>
-     <div className='card border border-0'>
-        <img src={item.img} className='card-img-top' alt={item.title}/>
+    <div className='card card-product'>
+        <img src={'../../../public/imgs/'+item.img} className='card-img-top' alt={item.title}/>
         <div className='card-body text-center'>
-         <p className='card-text'>{item.title} - $ {item.price}</p>
+        <p className='card-text'>{item.title} - $ {item.price}</p>
         </div>
     </div>  
     </div>
