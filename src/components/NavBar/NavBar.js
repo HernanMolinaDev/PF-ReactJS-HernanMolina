@@ -8,9 +8,9 @@ const NavBar = () => {
   
     return (
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="index.html">
+        <Link className="navbar-brand nav-link" to="/">
           <img src={logo} width="30" height="30" alt="" className="img-logo-nav" />
-        </a>
+        </Link>
         <Link className="navbar-brand nav-link" to="/">DHARMA</Link>
         <button
           className="navbar-toggler"

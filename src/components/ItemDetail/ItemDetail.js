@@ -14,15 +14,15 @@ const ItemDetail = ({item}) => {
   }
 
   return (
-    <div className>
-     <div className='col-md-4 offset-md-4'>
+    <div className='div-detail'>
+     <div className='col-md-4 offset-md-4 '>
         <img src={item.img} className='img-fluid'alt={item.title}/>
         <h2>{item.title}</h2>
         <p>{item.description}</p>
         <p> $ {item.price}</p>
         <p> Cantidad: {item.stock}</p>
      </div>
-     <div>
+     <div className='btn-detail'>
       {goToCart ? <Link to='/cart'>Terminar compra</Link> :<ItemCount stock={5} initial={0} onAdd={onAdd} />}
      </div>
      </div>

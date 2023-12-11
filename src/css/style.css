@@ -1,3 +1,7 @@
+html {
+  background-color: #18404e;
+}
+
 body {
   background-color: #18404e;
 }
@@ -9,6 +13,8 @@ body {
 nav {
   background-color: #18404e;
   color: #e9b607;
+  border-bottom: #e9b607 solid;
+  border-width: 1px;
 }
 
 .nav-link {
@@ -52,6 +58,19 @@ div .card-product .btn {
   font-weight: bold;
   background-color: #e9b607;
   color: #18404e;
+}
+
+.div-detail {
+  color: #e9b607;
+}
+
+.btn-detail {
+  color: #e9b607;
+}
+.btn-detail button {
+  background-color: #e9b607;
+  color: #18404e;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

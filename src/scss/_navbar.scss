@@ -1,6 +1,8 @@
 nav{
     background-color: $color1;
     color:$color2;
+    border-bottom: $color2 solid;
+    border-width: 1px;
 }
 .nav-link{
     color:$color2;
