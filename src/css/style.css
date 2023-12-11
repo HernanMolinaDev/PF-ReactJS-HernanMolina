@@ -61,6 +61,7 @@ div .card-product .btn {
 }
 
 .div-detail {
+  margin-top: 10px;
   color: #e9b607;
 }
 
@@ -71,6 +72,7 @@ div .card-product .btn {
   background-color: #e9b607;
   color: #18404e;
   border-radius: 2px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

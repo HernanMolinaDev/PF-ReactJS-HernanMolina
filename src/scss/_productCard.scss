@@ -21,6 +21,7 @@ div{
     }
 }
 .div-detail{
+    margin-top: 10px;
     color:$color2
 }
 .btn-detail{
@@ -29,5 +30,6 @@ div{
             background-color:$color2;
             color:$color1;
             border-radius: 2px;
+            margin: 10px;
         }
 }

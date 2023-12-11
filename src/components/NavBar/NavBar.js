@@ -40,9 +40,6 @@ const NavBar = () => {
                 </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link" to="">Contactanos</Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link nav-link" to="/cart">
                 <CartWidget />
               </Link>
